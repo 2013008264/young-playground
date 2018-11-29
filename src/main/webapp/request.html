@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=euc-kr"/>
+</head>
+<body>
+    <h1>request example1</h1>
+    <from method=get action="request1.jsp">
+        name : <input type="text" name="name"><br />
+        student id : <input type="text" name="studentNum"><br />
+        m/f : male <input type="radio" name="gender" value="man" checked>
+        female <input type="radio" name="gender" value="woman"><br />
+        major :
+        <select name="major">
+            <option selected value="information sys">info sys</option>
+            <option value="dance">dance</option>
+            <option value="archi">archi</option>
+            <option value="computer">computer</option>
+            <option value="math">math</option>
+        </select><br>
+
+        hobby : game<input type="checkbox" name="hobby" value="game">
+        movie<input type="checkbox" name="hobby" value="movie">
+        sport<input type="checkbox" name="hobby" value="sport">
+        tv<input type="checkbox" name="hobby" value="tv"><br />
+
+        <input type="submit" value="">
+    </from>
+</body>
+</html>
